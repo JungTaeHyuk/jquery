@@ -12,7 +12,7 @@ function adjustCSS( elem, prop, valueParts, tween ) {
 			function() {
 				return tween.cur();
 			} :
-			function() {
+			function() {   
 				return jQuery.css( elem, prop, "" );
 			},
 		initial = currentValue(),
